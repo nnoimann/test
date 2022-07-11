@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace test
+namespace _3ext1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите n");
+            Console.WriteLine("Enter the number of matrix elements");
             int n = int.Parse(Console.ReadLine());
             int[] a = new int[n];
             for (int i = 0; i < n; i++)
@@ -21,9 +21,8 @@ namespace test
             int k = 0;
             for (int i = 0; i < a.Length; i++)
                 if (a[i] % 2 == 0)
-                    k++;
+                    k += a[i];
             Console.WriteLine(k);
-            Console.ReadKey();
         }
     }
 }
