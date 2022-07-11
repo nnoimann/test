@@ -34,7 +34,7 @@ namespace _2ext3
             }
             else
             {
-                Console.WriteLine("Числа будут комплексные");
+                Console.WriteLine("The numbers will be complex");
             }
         }
     }
