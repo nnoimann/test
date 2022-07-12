@@ -15,7 +15,7 @@ namespace _3ext2
             int[] arr = new int[n];
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("Enter {0}-й element", i + 1);
+                Console.WriteLine("Enter {0} element", i + 1);
                 arr[i] = int.Parse(Console.ReadLine());
             }
             int count = 0;
